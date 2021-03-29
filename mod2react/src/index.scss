@@ -1,0 +1,98 @@
+.modalh{
+  color:blue;
+
+}
+.join{
+  border-radius: 5px;
+  background: #E80808;
+  color: #ffffff;
+  border:#E80808;
+  font-family: dagnyOffcProBold;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 2VW;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+    width: 18.75vw;
+    margin: 0 1rem;
+
+    padding:20px;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 5rem;
+  width: 20rem;
+  margin-left:35%;
+
+
+
+  
+}
+
+.heading{
+  color:blueviolet;
+}
+
+.rightSection {
+  float: right;
+}
+
+.phoneNumber {
+  color:white;
+  font-family: Lato, DagnyOffcPro;
+  position: relative;
+  text-align: center;
+}
+.sticky_header {
+  width: 100%;
+  background: #DC2A2A none repeat scroll 0 0;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  height:4%;
+}
+.headline{
+  margin-top: 10px;
+}
+.renew{
+  border-radius: 5px;
+  background: #E80808;
+  color: #ffffff;
+  border:white;
+
+  text-align: center;
+
+
+
+    margin: 0 1rem;
+
+    padding:20px;
+}
