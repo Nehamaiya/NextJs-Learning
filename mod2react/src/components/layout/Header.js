@@ -1,11 +1,13 @@
 
 import {Link} from 'react-router-dom'
+// javascript object - properties of classes
 
+import classes from './Header.module.scss';
          function Header(props) {
   return (
    
-<div className="sticky_header">
-<header>
+<div >
+<header classnName={classes.head} >
              <nav>
                   <ul>
                     <li>
@@ -14,6 +16,9 @@ import {Link} from 'react-router-dom'
                     
                     <li>
                          <Link to='/Example-2'>Example 2</Link>
+                    </li>
+                    <li>
+                         <Link to='/NewMeetup'>New Meet Up</Link>
                     </li>
                   </ul>
              </nav>

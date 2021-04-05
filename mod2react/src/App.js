@@ -1,11 +1,12 @@
 
-import Header from './components/Header';
+import Header from './components/layout/Header';
 import Modalpopup from './components/Modalpopup';
 
 import {Route} from 'react-router-dom';
 
 import Examplenew from './pages/Examplenew';
 import Examplsecond from './pages/Examplsecond';
+import Newmeetup from './pages/Newmeetup';
 
 
 function App() {
@@ -37,6 +38,11 @@ function App() {
 
    <Route path='/Example-2'>
 <Examplsecond />
+
+   </Route>
+
+   <Route path='/NewMeetup'>
+<Newmeetup> </Newmeetup>
 
    </Route>
    </body>
